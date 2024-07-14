@@ -76,8 +76,3 @@ The server will start running on `http://localhost:3000`.
 ## Dependencies
 
 - Express.js: Web framework for Node.js that includes middleware for parsing JSON and URL-encoded request bodies.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-Feel free to customize this README further based on additional features or specific instructions relevant to your API!
