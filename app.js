@@ -153,7 +153,7 @@ app.get("/tasks/priority/:level", (req, res) => {
   const level = req.params.level;
 
   // Validate priority level
-  if (!["low", "medium", "high", null].includes(level)) {
+  if (!["low", "medium", "high"].includes(level)) {
     return res.status(400).json({
       error:
         "Invalid priority level. Valid values are 'low', 'medium', 'high'.",
